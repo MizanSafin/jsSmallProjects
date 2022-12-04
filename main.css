@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contact{
+    width: 100%;
+    
+    padding: 40px;
+    background: linear-gradient(to right, #677fd4,#0d4074);
+    font-size: 20px;
+    color: aliceblue;
+}
+
+form{
+    padding: 40px;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.form-group input{
+    padding: 5px;
+    width: 320px;
+    font-size: 20px;
+    color: #5c5353;
+    margin-bottom: 10px;
+}
+
+form button{
+    padding: 10px 30px;
+    background: none;
+    cursor: pointer;
+    border-color:#597cfa;
+    border-radius: 10px;
+    transition: all .5s ease-in-out;
+}
+form button:hover{
+    background-color:#597cfa ;
+    color: #fefefe;
+    border: none;
+}
+.hr{
+    background-color: #597cfa;
+    height: 1px;
+    border: none;
+    width: 100%;
+    margin: 20px 0;
+}
+.error-msg{
+    display: none;
+}
+
+.errorBorder{
+    outline: none;
+    border-color: red;
+}
+
+.error-color{
+    color: red;
+}
+input[type="text"]::placeholder{
+     font-size: 16px;
+}
+
+.thanks{
+   text-align: center;
+   padding: 40px;
+}
+
+.hidden{
+    display: none;
+}
